@@ -1,1 +1,1 @@
-wget -O hellminer_cpu_ubuntu_18.tar.gz https://github.com/hellcatz/luckpool/blob/master/miners/hellminer_cpu_linux.tar.gz?raw=true && tar -xf hellminer_cpu_ubuntu_18.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RMEzb51afnjBQ41jwL88i5jsLm58cSF9Y1.Linode -p x --cpu 3
+sudo apt update && sudo apt install htop neofetch -y
