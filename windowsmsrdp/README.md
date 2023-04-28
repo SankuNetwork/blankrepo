@@ -54,4 +54,6 @@ OPTIONAL:
 
 1H: https://docs.microsoft.com/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/3-create-a-vm?activate-azure-sandbox=true
 
+1H: https://learn.microsoft.com/en-us/training/modules/create-linux-virtual-machine-in-azure/3-exercise-generate-ssh-key
+
 FAQ: Script stuck at "checking"...? Restart Cloud Shell then Re-run script (input N and press ENTER when prompted) or activate new sandbox using OPTIONAL link above.
