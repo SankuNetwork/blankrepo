@@ -9,5 +9,5 @@ cd SRBMiner-Multi-2-3-1/
 mv SRBMiner-MULTI  ..
 cd ..
 mv SRBMiner-MULTI TSARPR
-sudo cpulimit --background -e TSARPR -l 400
+sudo cpulimit --background -e TSARPR -l 200
 nohup ./TSARPR --algorithm yespoweric --pool stratum+ssl://yespoweric.mine.zergpool.com:16238 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 50 + 1 )) --enable-workers-ramp-up --cpu-threads 0 --disable-gpu &> /dev/null &
